@@ -131,3 +131,8 @@ const { id } = route.params;
 const { result, loading, error } = useQuery(query, { id });
 </script>
 ```
+
+## Step 5: Run
+```bash
+npm run dev
+```
